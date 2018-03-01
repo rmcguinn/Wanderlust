@@ -4,7 +4,7 @@ html {
     background-size:cover;
     background-position:center;
     height: 100%;
-    color: white;
+    color: #ffffff;
 }
 
 .Wrapper {
@@ -42,6 +42,10 @@ html {
     color: white;
 }
 
+.Mute {
+    cursor: pointer;
+}
+
 /* Grow */
 
 .hvr-grow {
@@ -59,9 +63,9 @@ html {
 .hvr-grow:hover,
 .hvr-grow:focus,
 .hvr-grow:active {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-    color: #ccc;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    /* color: #ccc; */
 }
 
 .Title h1 {
