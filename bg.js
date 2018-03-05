@@ -2,7 +2,7 @@
 const bgimages = ['city-fence-2', 'cliff', 'overlooking-city', 'red-mountains-no', 'trees', 'water-rocks'];
 
 
-window.onload = function init() {
+function background() {
     const random = Math.floor(Math.random() * bgimages.length);
     console.log(random);
     bg1 = bgimages[random];
@@ -16,3 +16,5 @@ window.onload = function init() {
     document.documentElement.style.backgroundPosition = 'center';
     };
 }
+
+background();
