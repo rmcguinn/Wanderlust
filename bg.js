@@ -1,7 +1,6 @@
 // const bgimages = ['cave-2', 'city-fence-2', 'cliff', 'fishing', 'overlooking-city', 'red-mountains-no', 'stars', 'trees', 'water-rocks', 'window'];
 const bgimages = ['city-fence-2', 'cliff', 'overlooking-city', 'red-mountains-no', 'trees', 'water-rocks'];
 
-
 function background() {
     const random = Math.floor(Math.random() * bgimages.length);
     console.log(random);
